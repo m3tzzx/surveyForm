@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+    <form action="post" id="survey-form">
+        <label for="name" id="name-label">Name</label><input type="text" id="name" placeholder="Enter your name"
+            required>
+        <label for="email" id="email-label">Email</label><input type="email" id="email" placeholder="Enter your email"
+            required>
+        <label for="number" id="number-label">Age(optional)</label><input type="number" id="number" min="15" max="100"
+            placeholder="age">
+        <select name="" id="dropdown">
+            <option value="">Select Current role</option>
+            <option value="student">Student</option>
+            <option value="full-time-job">Full Time Job</option>
+            <option value="full-time-learner">Full Time Learner</option>
+            <option value="not-to-say">Prefer Not to Say</option>
+            <option value="other">Other</option>
+        </select>
+        <div>
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <div><input type="radio" id="choice1" name="reco" value=""><label for="">Definitely</label></div>
+            <div><input type="radio" id="choice2" name="reco" value=""><label for="">Maybe</label></div>
+            <div><input type="radio" id="choice3" name="reco" value=""><label for="">Not sure</label></div>
+        </div>
+        <div>
+            <label for="dropdown">What is your favorite feature of freeCodeCamp?</label>
+            <select name="" id="dropdown">
+                <option value="">Select an option</option>
+                <option value="student">Challenges</option>
+                <option value="full-time-job">Projects</option>
+                <option value="full-time-learner">Community</option>
+                <option value="not-to-say">Open Source</option>
+            </select>
+        </div>
+
+    </form>
+</body>
+
+</html>
