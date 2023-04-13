@@ -27,23 +27,35 @@
             <option value="not-to-say">Prefer Not to Say</option>
             <option value="other">Other</option>
         </select>
-        <div>
-            <p>Would you recommend freeCodeCamp to a friend?</p>
-            <div><input type="radio" id="choice1" name="reco" value=""><label for="">Definitely</label></div>
-            <div><input type="radio" id="choice2" name="reco" value=""><label for="">Maybe</label></div>
-            <div><input type="radio" id="choice3" name="reco" value=""><label for="">Not sure</label></div>
-        </div>
-        <div>
-            <label for="dropdown">What is your favorite feature of freeCodeCamp?</label>
-            <select name="" id="dropdown">
-                <option value="">Select an option</option>
-                <option value="student">Challenges</option>
-                <option value="full-time-job">Projects</option>
-                <option value="full-time-learner">Community</option>
-                <option value="not-to-say">Open Source</option>
-            </select>
-        </div>
-
+        <p>Do you recommend freeCodeCamp to a friend?</p>
+        <input type="radio" id="choice1" name="reco" value="choice1"><label for="choice1">Definitely</label>
+        <input type="radio" id="choice2" name="reco" value="choice2"><label for="choice2">Maybe</label>
+        <input type="radio" id="choice3" name="reco" value="choice3"><label for="choice3">Not sure</label>
+        <p for="dropdown">What is your favorite feature of freeCodeCamp?</p>
+        <select name="" id="dropdown">
+            <option value="">Select an option</option>
+            <option value="student">Challenges</option>
+            <option value="full-time-job">Projects</option>
+            <option value="full-time-learner">Community</option>
+            <option value="not-to-say">Open Source</option>
+        </select>
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <input type="checkbox" id="chckbox1" name="front-end"><label for="chckbox1">Front-end Projects</label>
+        <input type="checkbox" id="chckbox2" name="back-end"><label for="chckbox2">Back-end Projects</label>
+        <input type="checkbox" id="chckbox3" name="data-visualization"><label for="chckbox3">Data Visualization</label>
+        <input type="checkbox" id="chckbox4" name="challenges"><label for="chckbox4">Challenges</label>
+        <input type="checkbox" id="chckbox5" name="open-source-community"><label for="chckbox5">Open Source
+            Community</label>
+        <input type="checkbox" id="chckbox6" name="gitter-help-rooms"><label for="chckbox6">Gitter help rooms</label>
+        <input type="checkbox" id="chckbox7" name="videos"><label for="chckbox7">Videos</label>
+        <input type="checkbox" id="chckbox8" name="city-meetups"><label for="chckbox8">City Meetups</label>
+        <input type="checkbox" id="chckbox9" name="wiki"><label for="chckbox9">Wiki</label>
+        <input type="checkbox" id="chckbox10" name="forum"><label for="chckbox10">Forum</label>
+        <input type="checkbox" id="chckbox11" name="additional-courses"><label for="chckbox11">Additional
+            Courses</label>
+        <label for="">Any comments or suggestions?</label>
+        <textarea name="" id="" cols="40" rows="10">Enter your comment here...</textarea>
+        <input type="submit" value="Submit" id="submit">
     </form>
 </body>
 
