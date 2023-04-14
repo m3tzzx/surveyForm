@@ -4,8 +4,6 @@ body {
   margin: 0;
   background-color: #1b1b32;
   color: #f5f6f7;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 16px;
 }
 
 h1,
@@ -24,12 +22,7 @@ form {
 
 fieldset {
   border: none;
-  border-bottom: 3px solid #3b3b4f;
   padding: 2rem 0;
-}
-
-fieldset:last-of-type {
-  border-bottom: none;
 }
 
 input,
@@ -45,34 +38,12 @@ label {
   margin: 0.5rem 0;
 }
 
-input,
-textarea {
-  background-color: #0a0a23;
-  border: 1px solid #0a0a23;
-  color: #ffffff;
-}
-
 .inline {
   width: unset;
   margin: 0 0.5em 0 0;
   vertical-align: middle;
 }
 
-input[type="submit"] {
-  display: block;
-  width: 60%;
-  margin: 1em auto;
-  height: 2em;
-  font-size: 1.1rem;
-  background-color: #3b3b4f;
-  border-color: white;
-  min-width: 300px;
-}
-
-input[type="file"] {
-  padding: 1px 2px;
-}
-
-a {
-  color: #dfdfe2;
+div {
+  padding-top: 1em;
 }
