@@ -14,49 +14,17 @@
     <p id="description">Thank you for taking the time to help us improve the platform</p>
 
     <form action="post" id="survey-form">
-        <label for="name" id="name-label">Name</label><input type="text" id="name" placeholder="Enter your name"
-            required>
-        <label for="email" id="email-label">Email</label><input type="email" id="email" placeholder="Enter your email"
-            required>
-        <label for="number" id="number-label">Age(optional)</label><input type="number" id="number" min="15" max="100"
-            placeholder="age">
-        <select name="" id="dropdown">
-            <option value="">Select Current role</option>
-            <option value="student">Student</option>
-            <option value="full-time-job">Full Time Job</option>
-            <option value="full-time-learner">Full Time Learner</option>
-            <option value="not-to-say">Prefer Not to Say</option>
-            <option value="other">Other</option>
-        </select>
-        <p>Do you recommend freeCodeCamp to a friend?</p>
-        <input type="radio" id="choice1" name="reco" value="choice1"><label for="choice1">Definitely</label>
-        <input type="radio" id="choice2" name="reco" value="choice2"><label for="choice2">Maybe</label>
-        <input type="radio" id="choice3" name="reco" value="choice3"><label for="choice3">Not sure</label>
-        <p for="dropdown">What is your favorite feature of freeCodeCamp?</p>
-        <select name="" id="dropdown">
-            <option value="">Select an option</option>
-            <option value="student">Challenges</option>
-            <option value="full-time-job">Projects</option>
-            <option value="full-time-learner">Community</option>
-            <option value="not-to-say">Open Source</option>
-        </select>
-        <p>What would you like to see improved? (Check all that apply)</p>
-        <input type="checkbox" id="chckbox1" name="front-end"><label for="chckbox1">Front-end Projects</label>
-        <input type="checkbox" id="chckbox2" name="back-end"><label for="chckbox2">Back-end Projects</label>
-        <input type="checkbox" id="chckbox3" name="data-visualization"><label for="chckbox3">Data Visualization</label>
-        <input type="checkbox" id="chckbox4" name="challenges"><label for="chckbox4">Challenges</label>
-        <input type="checkbox" id="chckbox5" name="open-source-community"><label for="chckbox5">Open Source
-            Community</label>
-        <input type="checkbox" id="chckbox6" name="gitter-help-rooms"><label for="chckbox6">Gitter help rooms</label>
-        <input type="checkbox" id="chckbox7" name="videos"><label for="chckbox7">Videos</label>
-        <input type="checkbox" id="chckbox8" name="city-meetups"><label for="chckbox8">City Meetups</label>
-        <input type="checkbox" id="chckbox9" name="wiki"><label for="chckbox9">Wiki</label>
-        <input type="checkbox" id="chckbox10" name="forum"><label for="chckbox10">Forum</label>
-        <input type="checkbox" id="chckbox11" name="additional-courses"><label for="chckbox11">Additional
-            Courses</label>
-        <label for="">Any comments or suggestions?</label>
-        <textarea name="" id="" cols="40" rows="10">Enter your comment here...</textarea>
-        <input type="submit" value="Submit" id="submit">
+        <fieldset>
+            <label for="first-name">Enter Your First Name: <input type="text" id="first-name" required></label>
+            <label for="last-name">Enter Your First Name: <input type="text" id="last-name" required></label>
+            <label for="email">Enter Your Email: <input type="email" id="email" required></label>
+            <label for="new-password">Creat a New Password: <input type="password" id="new-password" required
+                    pattern="[a-z0-5]{8,}"></label>
+        </fieldset>
+        <fieldset></fieldset>
+        <fieldset></fieldset>
+        <fieldset></fieldset>
+        <input type="submit" value="Submit">
     </form>
 </body>
 
